@@ -1,0 +1,490 @@
+#pl_content_biztips {
+    display: none;
+}
+
+#pl_content_setSkin {
+    display: NONE;
+}
+
+#pl_rightmod_ads35, #trustPagelet_recom_memberv5, #trustPagelet_recom_allinonev5, #pl_rightmod_noticeboard {
+    display: none;
+}
+
+#pl_rightmod_yunying {
+    display: none;
+}
+
+#pl_topic_followTopic {
+    display: none;
+    margin-top: 60px;
+    opacity: 0.7;
+}
+
+#trustPagelet_recom_interestv5 {
+    display: none;
+}
+
+.B_index #Box_center, .B_mention_me #Box_center {
+    background: #fff;
+    margin-left: 150px;
+    padding-top: 0;
+}
+
+.B_index .W_main_a, .B_mention_me .W_main_a {
+    width: 980px;
+}
+
+.B_index .W_main_l, .B_mention_me .W_main_l {
+    border: 1px solid #eee;
+    margin-top: 38px;
+    opacity: 1;
+    padding: 0;
+    position: fixed;
+    width: 140px;
+}
+
+.B_index .W_main_l:hover {
+    opacity: 1;
+}
+
+.B_index .W_main_r {
+    height: 40px;
+    opacity: 1;
+    position: fixed;
+    right: -30px;
+    top: -29px;
+    width: 310px;
+    z-index: 9999;
+}
+
+.B_index .W_main_r:hover {
+    opacity: 1;
+}
+
+.B_index .W_miniblog, .B_mention_me .W_miniblog {
+    background: #fff;
+    background-image: none;
+}
+
+.B_index .W_person_info {
+    display: none;
+}
+
+.B_index .user_atten {
+    font-size: 11px;
+}
+
+.B_index .user_atten li {
+    border: none;
+    overflow: hidden;
+    margin-top: 5px
+;
+}
+
+.B_index .user_atten li a {
+    text-align: right;
+    width: 75px;
+}
+
+.B_index .user_atten li a span {
+    color: #888;
+    font-size: 12px;
+    margin-left: 10px
+;
+}
+
+.B_index .user_atten li a strong {
+    color: #ccc;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.S_profile .W_main {
+    background-color: transparent;
+}
+
+.WB_arrow {
+    display: none;
+}
+
+.WB_detail:hover .WB_handle {
+    opacity: 1;
+}
+
+.WB_feed_datail .WB_face {
+    border: 2px solid  #fff;
+    box-shadow: 0 2px 3px #aaa;
+    margin-left: 3px
+;
+}
+
+.WB_from a {
+    color: #aaa;
+}
+
+.WB_from em {
+    color: #ccc;
+}
+
+.WB_func a {
+    color: #aaa;
+}
+
+.WB_func i {
+    color: #ddd;
+}
+
+.WB_global_nav {
+    background: #333;
+    border: none;
+    box-shadow: none;
+}
+
+.WB_handle {
+    color: #ddd;
+    opacity: 0;
+}
+
+.WB_info span {
+    color: #ccc;
+    margin-left: 5px;
+}
+
+.WB_text *[usercard] {
+    background: #eee;
+    border-radius: 6px;
+    color: #666;
+    font-weight: 700;
+    height: auto;
+    margin: 2px 1px 2px 4px;
+    padding: 0 6px;
+    text-indent: 0;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.WB_text *[usercard]:hover {
+    background: #ddd;
+    border-radius: 6px;
+    color: #333;
+    text-decoration: none;
+}
+
+.WB_text .a_topic {
+    background: none;
+    color: #666;
+    font-weight: 700;
+    height: auto;
+    margin: 2px 1px 2px 1px;
+    padding: 0 6px;
+    text-indent: 0;
+    vertical-align: baseline;
+    width: auto;
+}
+
+.WB_text .a_topic:hover {
+    background: #ddd;
+    border-radius: 6px;
+    color: #333;
+    text-decoration: none;
+}
+
+.WB_text a {
+    background: #000 url('http://iconmoon.com/temp/sina/Link.png') center;
+    border-radius: 3px;
+    color: #fff;
+    display: inline-block;
+    height: 18px;
+    margin: 0px 4px 2px;
+    padding: 0 5px 0 7px;
+    text-indent: -9911px;
+    vertical-align: middle;
+    width: 26px;
+}
+
+.WB_text a:hover {
+    background: #000 url('http://iconmoon.com/temp/sina/Link.png') center;
+    border-radius: 3px;
+    color: #fff;
+    padding: 0 6px;
+}
+
+.W_ico16, .W_ico20, .W_new, .ico {
+    background-image: url('http://iconmoon.com/temp/sina/icon.png');
+}
+
+.W_main {
+    background: #fff;
+}
+
+.W_miniblog {
+    padding-top: 40px;
+}
+
+.W_miniblog * {
+    -webkit-transition-duration: 0.1s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-timing-function: ease-in;
+}
+
+.current .gn_tab {
+    background: #ddd;
+}
+
+.current a {
+    background: #ddd;
+}
+
+.footer_adv, .global_footer {
+    display: none;
+}
+
+.gn_bg {
+    background: #f5f5f5;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 5px solid #000;
+}
+
+.gn_header {
+    width: 100%;
+}
+
+.gn_logo {
+    background-image: url('http://iconmoon.com/temp/sina/icon.png');
+    background-position: -347px -402px;
+    left: 10px;
+    margin: 0 auto;
+    opacity: 1;
+    position: absolute;
+    width: 100px;
+    z-index: 1;
+}
+
+.gn_logo a {
+    width: 100px;
+}
+
+.gn_logo:hover {
+    background-position: -347px -452px;
+}
+
+.gn_nav {
+    display: none;
+}
+
+.gn_person {
+    color: #888;
+    font-size: 12px;
+    font-weight: 700;
+    margin-right: 300px;
+}
+
+.gn_person a {
+    color: #888;
+}
+
+.gn_search {
+    background: #fff;
+    border: 1px solid #ddd;
+    left: 74px;
+    z-index: 100;
+}
+
+.gn_search:hover {
+    border: 1px solid #aaa;
+}
+
+.gn_setting:nth-child(5) {
+    display: none;
+}
+
+.gn_tips {
+    background: #333;
+    color: #ccc;
+    left: 988px;
+    padding: 0 0 4px;
+    top: 39px;
+}
+
+.gn_tips a {
+    color: #fff;
+}
+
+.group_read {
+    display: none;
+}
+
+.icon_sw_mood, .icon_sw_welfare {
+    display: none;
+}
+
+.layer_tips_bg {
+    display: none;
+}
+
+.layer_tips_intro {
+    border: none;
+}
+
+.notes {
+    background: #eeeeee;
+    border: 1px solid #ccc;
+    color: #444;
+    font-weight: 700;
+}
+
+.notes:hover {
+    background: #e8e8e8;
+    color: #000;
+    text-decoration: none;
+}
+
+.send_weibo {
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: height;
+    -webkit-transition-timing-function: ease-out;
+    clear: both;
+    height: 90px;
+    overflow: hidden;
+}
+
+.send_weibo .W_ico16 {
+    -webkit-transform: scale(0);
+    -webkit-transition-delay: 0.6s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-timing-function: ease-in;
+}
+
+.send_weibo .arrow {
+    display: none;
+}
+
+.send_weibo .clicked {
+    border: 1px solid #9ba2b0;
+}
+
+.send_weibo .func_area {
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: opacity;
+    -webkit-transition-timing-function: ease-in;
+    opacity: 0;
+}
+
+.send_weibo .icon_sw_face {
+}
+
+.send_weibo .icon_sw_img {
+    -webkit-transition-delay: 0.65s;
+}
+
+.send_weibo .icon_sw_movie {
+    -webkit-transition-delay: 0.7s;
+}
+
+.send_weibo .icon_sw_music {
+    -webkit-transition-delay: 0.75s;
+}
+
+.send_weibo .icon_sw_qing {
+    -webkit-transition-delay: 0.8s;
+}
+
+.send_weibo .icon_sw_vote {
+    -webkit-transition-delay: 0.85s;
+}
+
+.send_weibo .input {
+    -webkit-transition-delay: 0.5s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: height;
+    -webkit-transition-timing-function: ease-in;
+    background: none;
+    border: 1px solid #ddd;
+    height: 50px;
+}
+
+.send_weibo .input textarea {
+    border: none;
+    font-family: Georgia;
+    height: auto;
+}
+
+.send_weibo:hover {
+    height: 170px;
+}
+
+.send_weibo:hover .W_ico16 {
+    -webkit-transform: scale(1);
+}
+
+.send_weibo:hover .func_area {
+    opacity: 1;
+}
+
+.send_weibo:hover .input {
+    height: 100px;
+}
+
+.send_weibo:hover .input textarea {
+    height: 88px;
+}
+
+.tips_error {
+    display: none;
+}
+
+.title_area .S_txt2 {
+    color: #fff;
+}
+
+.title_area a {
+    color: #fff;
+}
+
+.title_area span {
+    color: #888;
+    font-size: 17px;
+}
+
+.webim_list {
+    -webkit-transition-delay: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-property: opacity;
+    opacity: 0;
+}
+
+.webim_list:hover {
+    opacity: 1;
+}
+
+body {
+    font-family: "Open Sans";
+}
+
+div.WB_right_tips.S_line2 {
+    display: none;
+}
+
+div.key.S_textb {
+    display: none;
+}
+
+div.level_3_Box.W_func {
+    display: none;
+}
+
+div.title {
+    display: none;
+}
+
+.gn_setting a:hover {
+    background: #d3d3d3;
+}
+
+.logo_professional {
+    height: 50px;
+}
