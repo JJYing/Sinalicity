@@ -25,7 +25,11 @@
 }
 
 .B_index #Box_center, .B_mention_me #Box_center {
-    background: #fff;
+    background-color: #fff;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
     margin-left: 150px;
     padding-top: 0;
 }
@@ -35,10 +39,24 @@
 }
 
 .B_index .W_main_l, .B_mention_me .W_main_l {
-    border: 1px solid #eee;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #eee;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #eee;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #eee;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #eee;
     margin-top: 38px;
     opacity: 1;
-    padding: 0;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
     position: fixed;
     width: 140px;
 }
@@ -62,8 +80,11 @@
 }
 
 .B_index .W_miniblog, .B_mention_me .W_miniblog {
-    background: #fff;
+    background-color: #fff;
     background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
 }
 
 .B_index .W_person_info {
@@ -75,10 +96,21 @@
 }
 
 .B_index .user_atten li {
-    border: none;
-    overflow: hidden;
+    border-top-width: medium;
+    border-top-style: none;
+    border-top-color: -moz-initial;
+    border-right-width: medium;
+    border-right-style: none;
+    border-right-color: -moz-initial;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: -moz-initial;
+    border-left-width: medium;
+    border-left-style: none;
+    border-left-color: -moz-initial;
     margin-top: 5px
 ;
+    overflow: hidden;
 }
 
 .B_index .user_atten li a {
@@ -113,7 +145,18 @@
 }
 
 .WB_feed_datail .WB_face {
-    border: 2px solid  #fff;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #fff;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-right-color: #fff;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #fff;
     box-shadow: 0 2px 3px #aaa;
     margin-left: 3px
 ;
@@ -136,8 +179,23 @@
 }
 
 .WB_global_nav {
-    background: #333;
-    border: none;
+    background-color: #333;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    border-top-width: medium;
+    border-top-style: none;
+    border-top-color: -moz-initial;
+    border-right-width: medium;
+    border-right-style: none;
+    border-right-color: -moz-initial;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: -moz-initial;
+    border-left-width: medium;
+    border-left-style: none;
+    border-left-color: -moz-initial;
     box-shadow: none;
 }
 
@@ -152,62 +210,107 @@
 }
 
 .WB_text *[usercard] {
-    background: #eee;
+    background-color: #eee;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
     border-radius: 6px;
     color: #666;
     font-weight: 700;
     height: auto;
-    margin: 2px 1px 2px 4px;
-    padding: 0 6px;
+    margin-top: 2px;
+    margin-right: 1px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    padding-top: 0;
+    padding-right: 6px;
+    padding-bottom: 0;
+    padding-left: 6px;
     text-indent: 0;
     vertical-align: baseline;
     width: auto;
 }
 
 .WB_text *[usercard]:hover {
-    background: #ddd;
+    background-color: #ddd;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
     border-radius: 6px;
     color: #333;
     text-decoration: none;
 }
 
 .WB_text .a_topic {
-    background: none;
+    background-color: transparent;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
     color: #666;
     font-weight: 700;
     height: auto;
-    margin: 2px 1px 2px 1px;
-    padding: 0 6px;
+    margin-top: 2px;
+    margin-right: 1px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    padding-top: 0;
+    padding-right: 6px;
+    padding-bottom: 0;
+    padding-left: 6px;
     text-indent: 0;
     vertical-align: baseline;
     width: auto;
 }
 
 .WB_text .a_topic:hover {
-    background: #ddd;
+    background-color: #ddd;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
     border-radius: 6px;
     color: #333;
     text-decoration: none;
 }
 
 .WB_text a {
-    background: #000 url('http://iconmoon.com/temp/sina/Link.png') center;
+    background-color: #000;
+    background-image: url('http://iconmoon.com/temp/sina/Link.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center center;
     border-radius: 3px;
     color: #fff;
     display: inline-block;
     height: 18px;
-    margin: 0px 4px 2px;
-    padding: 0 5px 0 7px;
+    margin-top: 0px;
+    margin-right: 4px;
+    margin-bottom: 2px;
+    margin-left: 4px;
+    padding-top: 0;
+    padding-right: 5px;
+    padding-bottom: 0;
+    padding-left: 7px;
     text-indent: -9911px;
     vertical-align: middle;
     width: 26px;
 }
 
 .WB_text a:hover {
-    background: #000 url('http://iconmoon.com/temp/sina/Link.png') center;
+    background-color: #000;
+    background-image: url('http://iconmoon.com/temp/sina/Link.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: center center;
     border-radius: 3px;
     color: #fff;
-    padding: 0 6px;
+    padding-top: 0;
+    padding-right: 6px;
+    padding-bottom: 0;
+    padding-left: 6px;
 }
 
 .W_ico16, .W_ico20, .W_new, .ico {
@@ -215,7 +318,11 @@
 }
 
 .W_main {
-    background: #fff;
+    background-color: #fff;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
 }
 
 .W_miniblog {
@@ -229,11 +336,19 @@
 }
 
 .current .gn_tab {
-    background: #ddd;
+    background-color: #ddd;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
 }
 
 .current a {
-    background: #ddd;
+    background-color: #ddd;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
 }
 
 .footer_adv, .global_footer {
@@ -241,9 +356,17 @@
 }
 
 .gn_bg {
-    background: #f5f5f5;
-    border-bottom: 1px solid #e5e5e5;
-    border-top: 5px solid #000;
+    background-color: #f5f5f5;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e5e5e5;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-top-color: #000;
 }
 
 .gn_header {
@@ -254,7 +377,10 @@
     background-image: url('http://iconmoon.com/temp/sina/icon.png');
     background-position: -347px -402px;
     left: 10px;
-    margin: 0 auto;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
     opacity: 1;
     position: absolute;
     width: 100px;
@@ -285,14 +411,48 @@
 }
 
 .gn_search {
-    background: #fff;
-    border: 1px solid #ddd;
+    background-color: #fff;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ddd;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ddd;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ddd;
     left: 74px;
     z-index: 100;
 }
 
 .gn_search:hover {
-    border: 1px solid #aaa;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #aaa;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #aaa;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #aaa;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #aaa;
+}
+
+.gn_setting a:hover {
+    background-color: #d3d3d3;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
 }
 
 .gn_setting:nth-child(5) {
@@ -300,10 +460,17 @@
 }
 
 .gn_tips {
-    background: #333;
+    background-color: #333;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
     color: #ccc;
     left: 988px;
-    padding: 0 0 4px;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 4px;
+    padding-left: 0;
     top: 39px;
 }
 
@@ -324,18 +491,52 @@
 }
 
 .layer_tips_intro {
-    border: none;
+    border-top-width: medium;
+    border-top-style: none;
+    border-top-color: -moz-initial;
+    border-right-width: medium;
+    border-right-style: none;
+    border-right-color: -moz-initial;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: -moz-initial;
+    border-left-width: medium;
+    border-left-style: none;
+    border-left-color: -moz-initial;
+}
+
+.logo_professional {
+    height: 50px;
 }
 
 .notes {
-    background: #eeeeee;
-    border: 1px solid #ccc;
+    background-color: #eeeeee;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ccc;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ccc;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ccc;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ccc;
     color: #444;
     font-weight: 700;
 }
 
 .notes:hover {
-    background: #e8e8e8;
+    background-color: #e8e8e8;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
     color: #000;
     text-decoration: none;
 }
@@ -363,7 +564,18 @@
 }
 
 .send_weibo .clicked {
-    border: 1px solid #9ba2b0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #9ba2b0;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #9ba2b0;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #9ba2b0;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #9ba2b0;
 }
 
 .send_weibo .func_area {
@@ -402,13 +614,39 @@
     -webkit-transition-duration: 0.2s;
     -webkit-transition-property: height;
     -webkit-transition-timing-function: ease-in;
-    background: none;
-    border: 1px solid #ddd;
+    background-color: transparent;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: top left;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #ddd;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: #ddd;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: #ddd;
     height: 50px;
 }
 
 .send_weibo .input textarea {
-    border: none;
+    border-top-width: medium;
+    border-top-style: none;
+    border-top-color: -moz-initial;
+    border-right-width: medium;
+    border-right-style: none;
+    border-right-color: -moz-initial;
+    border-bottom-width: medium;
+    border-bottom-style: none;
+    border-bottom-color: -moz-initial;
+    border-left-width: medium;
+    border-left-style: none;
+    border-left-color: -moz-initial;
     font-family: Georgia;
     height: auto;
 }
@@ -462,7 +700,7 @@
 }
 
 body {
-    font-family: "Open Sans";
+    font-family: "Open Sans", 'Hiragino Sans GB',sans-serif;
 }
 
 div.WB_right_tips.S_line2 {
@@ -481,10 +719,3 @@ div.title {
     display: none;
 }
 
-.gn_setting a:hover {
-    background: #d3d3d3;
-}
-
-.logo_professional {
-    height: 50px;
-}
